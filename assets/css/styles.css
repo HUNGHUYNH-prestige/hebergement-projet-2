@@ -309,6 +309,7 @@ ul{
 
 /* 2. Titre d'ensemble des filtres */
 .titre-Filtres{
+    font-weight: bold;
     border: none;
     background-color: none;
     width: auto;
