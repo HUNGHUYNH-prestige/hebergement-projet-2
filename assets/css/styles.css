@@ -295,23 +295,23 @@ ul{
 /* FILTRES */
 
 
-/* 2. Titre d'ensemble des filtres */
+/* 1. Titre d'ensemble des filtres */
 .titre-Filtres{
     font-weight: bold;
-    border: 1px solid red;
+    border: none;
     background-color: none;
     width: auto;
     height: auto;
     padding: 0px 0px 0px 0px;
-    margin: 0px 30px 0px 0px;
+    margin: 0px 0px 0px 10px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-/* 3. UL qui contient tous les filtres */
+/* 2. UL qui contient tous les filtres */
 .conteneur-filtres{
-    border: 1px solid green;
+    border: none;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -322,19 +322,19 @@ ul{
     height: auto;
 }
 
-/* 4. Afficher les filtres : lien <a>, icone <i>, texte <span> */
+/* 3. Afficher les filtres : lien <a>, icone <i>, texte <span> */
 .Filtres{
     border: #F2F2F2 solid 2px;
     border-radius: 50px;
     padding: 0px 20px 0px 0px;
     margin: 0px 20px 0px 20px;
-    width: 100%;
+    width: auto;
     height: auto;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background: none;
+    background:none;
 }
 
 /* 4.a. Effet au survol avec HOVER */
@@ -365,7 +365,7 @@ ul{
     height: 20px;
     text-align: center;
     padding: 10px;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 
