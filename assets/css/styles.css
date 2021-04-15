@@ -42,7 +42,7 @@ body{
 }
 
 .pomme{
-    border: none;
+    border: 1px dotted green;
     background: none;
 }
 
