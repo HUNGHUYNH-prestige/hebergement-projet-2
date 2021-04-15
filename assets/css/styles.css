@@ -42,7 +42,7 @@ body{
 }
 
 .pomme{
-    border: 1px dotted green;
+    border: none;
     background: none;
 }
 
@@ -639,7 +639,7 @@ ul{
     width: 100%;
     height: auto;
     padding: 0px;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 20px 0px;
 }
 /* Pour les STAR voir dans la section 1 avec les hebergements */
 
@@ -720,7 +720,7 @@ ul{
     border: none;
     border-radius: 15px 15px 0px 0px;
     width: 100%; /* prendre la largeur disponible */
-    height: 85%; /* prendre qu'une partie de l'espace et laisse de la place pour le texte */
+    height: 90%; /* prendre qu'une partie de l'espace et laisse de la place pour le texte */
     padding: 0px;
     margin: 0px;
     object-fit: cover;
@@ -740,7 +740,7 @@ ul{
     border: none;
     border-radius: 15px 15px 0px 0px;
     width: 100%;
-    height: 80%;
+    height: 85%;
     padding: 0px;
     margin: 0px;
     object-fit: cover;
@@ -903,11 +903,11 @@ ul{
 
 
 /* Remarque :  */
-/* for screen 1295px and more : affichage desktop et en-dessous affichage mobile */
+/* for screen 1024px and more : affichage desktop et en-dessous affichage mobile */
 
 /* MEDIA QUERY : pour mobile */
 
-@media screen and (max-width:1294px){
+@media screen and (max-width:1023px){
     
     .pomme{
         border: none;
@@ -1063,12 +1063,12 @@ ul{
         background: #F2F2F2;
         border-radius: 0px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
     }
     /* populaires -> adapter le cadre : la figure et l'image */
     .hotel-populaire{
-        width: 30%;
+        width: 35%;
         height: auto;
     }
 
@@ -1087,65 +1087,15 @@ ul{
         flex-wrap: wrap;
     }
 
-    /* fin media query 1294px */
+    /* fin media query 1023px */
 }
 
 
 
-@media screen and (max-width:1201px){
-
-    /* en media query */
-    /* container de 'populaires' */
-    .Les-plus-populaires{
-        width: auto;
-        height: auto;
-        padding: 0px;
-        margin: 20px 0px 20px 0px;
-        background: none;
-        border-radius: 0px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    /* populaires -> adapter le cadre : la figure et l'image */
-    .hotel-populaire{
-        width: 40%;
-        height: auto;
-    }
-
-    /* fin media query 1201px */
-}
 
 
 
-@media screen and (max-width:850px){
 
-    .inscription{
-        margin: 10px;
-        padding: 0px;
-    }
-
-    /* en media query */
-    /* container de 'populaires' */
-    .Les-plus-populaires{
-        width: auto;
-        height: auto;
-        padding: 0px;
-        margin: 20px 0px 20px 0px;
-        background: none;
-        border-radius: 0px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    /* populaires -> adapter le cadre : la figure et l'image */
-    .hotel-populaire{
-        width: 90%;
-        height: auto;
-    }
-
-    /* fin media query 850px */
-}
 
 
 
@@ -1158,7 +1108,7 @@ ul{
         height: auto;
         padding: 0px;
         margin: 0px 0px 0px 0px;
-        background: #F2F2F2;
+        background: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1252,6 +1202,39 @@ ul{
 
     /* fin media query 800px */
 }
+
+
+
+
+@media screen and (max-width:768px){
+
+    .inscription{
+        margin: 10px;
+        padding: 0px;
+    }
+
+    /* en media query */
+    /* container de 'populaires' */
+    .Les-plus-populaires{
+        width: auto;
+        height: auto;
+        padding: 0px;
+        margin: 20px 0px 20px 0px;
+        background:#F2F2F2;
+        border-radius: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    /* populaires -> adapter le cadre : la figure et l'image */
+    .hotel-populaire{
+        width: 90%;
+        height: auto;
+    }
+
+    /* fin media query 768px */
+}
+
 
 
 
