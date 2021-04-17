@@ -32,7 +32,7 @@ html{
 
 /* BODY : TOUTE LA PAGE VISIBLE */
 body{
-    font-size: 0.8em; /* 1em = 15px */
+    font-size: 1em; /* 1em = 15px */
     font-family: 'Raleway', serif, Verdana, Tahoma, sans-serif;
     border: none;
     width: auto;
@@ -46,6 +46,17 @@ body{
     background: none;
 }
 
+figcaption{
+    border: none;
+    background-color: none;
+    font-size: 0.8em;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    width: auto;
+    height: auto;
+    /*position: relative;
+    left: 10px;*/
+}
 
 
 /* POSITION DU LOGO */
@@ -479,17 +490,18 @@ ul{
     width: 100%;
     height: auto;
     margin: 0px;
-    padding: 0px;
+    padding: 2px 0px 2px 0px;
+    font-weight: bold;
 }
 .prix-hotel{
     border: none;
     width: 100%;
     height: auto;
-    padding: 0px;
+    padding: 5px 0px 8px 0px;
     margin: 0px 0px 0px 0px;
 }
 
-/* 6. Mettre le prix en gras : <strong> */
+/* 6. Mettre le prix en gras ou la devise */
 .prix-en-gras{
     background: none;
     font-weight: bold;
@@ -631,15 +643,16 @@ ul{
     border: none;
     width: 100%;
     height: auto;
-    padding: 0px;
+    padding: 0px 0px 5px 0px;
     margin: 0px;
+    font-weight: bold;
 }
 .prix-populaire{
     border: none;
     width: 100%;
     height: auto;
     padding: 0px;
-    margin: 0px 0px 20px 0px;
+    margin: 10px 0px 20px 0px;
 }
 /* Pour les STAR voir dans la section 1 avec les hebergements */
 
@@ -740,7 +753,7 @@ ul{
     border: none;
     border-radius: 15px 15px 0px 0px;
     width: 100%;
-    height: 85%;
+    height: 80%;
     padding: 0px;
     margin: 0px;
     object-fit: cover;
@@ -1044,6 +1057,7 @@ ul{
         background: none;
         width: 25%;
         height: 220px;
+        box-shadow: 5px 5px 10px 5px #F2F2F2;
     }
     .image-hotel{
         border: none;
