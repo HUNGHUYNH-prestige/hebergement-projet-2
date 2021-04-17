@@ -65,7 +65,7 @@ figcaption{
     height: auto;
     background:none;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 
@@ -188,7 +188,7 @@ nav{
     display: flex;
     justify-content: flex-start;
     margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 20px;
     width: auto;
 }
 
@@ -201,7 +201,7 @@ nav{
     justify-content: flex-start;
     width: auto;
     height: auto;
-    padding: 20px 0px 0px 10px;
+    padding: 20px 0px 0px 20px;
     margin: 10px 10px 10px 10px;
 }
 
@@ -229,7 +229,7 @@ ul{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 20px;
     margin: 10px 10px 10px 10px;
     width:auto;
     height: 50px;
@@ -327,7 +327,7 @@ ul{
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
     margin: 0px 0px 0px 0px;
     width: auto;
     height: auto;
@@ -388,7 +388,7 @@ ul{
     background-color: none;
     width: auto;
     height: auto;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 20px;
     margin: 10px 10px 10px 10px;
     display: flex;
     justify-content: flex-start;
@@ -665,7 +665,7 @@ ul{
     width: auto;
     height: auto;
     padding: 0px;
-    margin: 10px;
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -690,7 +690,7 @@ ul{
     width: auto;
     height: auto;
     padding: 0px;
-    margin: 10px;
+    margin: 20px;
 }
 
 /* 2. Encadrer le titre principal h1 dans le header */
